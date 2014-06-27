@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var rework = require('rework')
+var inherit = require('rework-inherit')
+var concat = require('concat-stream')
+
+process.stdin.pipe(concat(function(css) {
+  process.stdout.write(
+    rework(css.toString())
+      .use(inherit())
+      .toString()
+  )
+}))

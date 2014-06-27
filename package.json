@@ -1,0 +1,32 @@
+{
+  "name": "css-inherit",
+  "version": "0.0.0",
+  "description": "A command-line version of rework-inherit.",
+  "private": true,
+  "bin": {
+    "css-inherit": "bin/css-inherit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/css-inherit.git"
+  },
+  "keywords": [
+    "css",
+    "extend",
+    "inherit",
+    "rework-inherit",
+    "cli"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/css-inherit/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/css-inherit",
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "rework": "^1.0.0",
+    "rework-inherit": "^0.2.2"
+  },
+  "devDependencies": {}
+}
