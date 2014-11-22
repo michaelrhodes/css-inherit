@@ -3,7 +3,7 @@ css-inherit is a command-line version of [rework-inherit](https://github.com/rew
 
 ## Install
 ``` sh
-$ npm install -g michaelrhodes/css-inherit
+$ npm install -g css-inherit
 ```
 
 ### Usage
